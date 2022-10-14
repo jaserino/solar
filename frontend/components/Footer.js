@@ -3,6 +3,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import logo from '../public/logo2.png';
 
+import { AiFillGithub } from 'react-icons/ai';
+import { AiFillTwitterCircle } from 'react-icons/ai';
+import { BiCoffeeTogo } from 'react-icons/bi';
+import { FaInternetExplorer } from 'react-icons/fa';
 const Footer = () => {
   return (
     <>
@@ -17,18 +21,29 @@ const Footer = () => {
           />
         </Link>
         <ul className={footerStyles.footer}>
-          <p>jayser @ 2022</p>
           <li>
-            <a href="https://jared-serino.netlify.app/">website</a>
+            <a href="https://jared-serino.netlify.app/">
+              <FaInternetExplorer className={footerStyles.icon} />
+              website
+            </a>
           </li>
           <li>
-            <a href="https://github.com/jaserino">github</a>
+            <a href="https://github.com/jaserino">
+              <AiFillGithub className={footerStyles.icon} />
+              github
+            </a>
           </li>
           <li>
-            <a href="https://twitter.com/jare_ser">twitter</a>
+            <a href="https://twitter.com/jare_ser">
+              <AiFillTwitterCircle className={footerStyles.icon} />
+              twitter
+            </a>
           </li>
           <li>
-            <a href="#">Buy me a coffee</a>
+            <a href="#">
+              <BiCoffeeTogo className={footerStyles.icon} />
+              Buy me a coffee
+            </a>
           </li>
         </ul>
       </div>
