@@ -1,0 +1,26 @@
+.footerbox {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  width: 100%;
+  background-color: transparent;
+  line-height: 1.3;
+  align-items: center;
+  padding: 0px 40px;
+}
+
+.footer {
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-gap: 60px;
+  align-items: center;
+  margin: auto;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.logo {
+  margin-left: 50px;
+}

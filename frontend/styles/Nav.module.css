@@ -1,9 +1,12 @@
 .nav {
   height: 60px;
-  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding: 0 40px;
+  position: fixed;
+}
+
+.logo {
   cursor: pointer;
 }
