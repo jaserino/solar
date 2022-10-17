@@ -8,13 +8,15 @@ const Nav = () => {
     <nav className={navStyles.nav}>
       <div>
         <Link href="/">
-          <Image
-            className={navStyles.logo}
-            src={logo}
-            alt="solar logo"
-            width="120px"
-            height="110px"
-          />
+          <div>
+            <Image
+              className={navStyles.logo}
+              src={logo}
+              alt="solar logo"
+              width="120px"
+              height="110px"
+            />
+          </div>
         </Link>
       </div>
     </nav>

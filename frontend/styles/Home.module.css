@@ -39,6 +39,8 @@
   border: 1px solid transparent;
   border-radius: 0.75rem;
   color: #ffffff;
+  height: 50px;
+  width: 120px;
   cursor: pointer;
   flex: 0 0 auto;
   font-size: 1.25rem;

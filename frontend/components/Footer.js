@@ -12,13 +12,15 @@ const Footer = () => {
     <>
       <div className={footerStyles.footerbox}>
         <Link href="/">
-          <Image
-            className={footerStyles.logo}
-            src={logo}
-            alt="solar logo"
-            width="150px"
-            height="100px"
-          />
+          <div>
+            <Image
+              className={footerStyles.logo}
+              src={logo}
+              alt="solar logo"
+              width="150px"
+              height="100px"
+            />
+          </div>
         </Link>
         <ul className={footerStyles.footer}>
           <li>
