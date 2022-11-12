@@ -12,3 +12,7 @@
 .logo {
   cursor: pointer;
 }
+
+.button {
+  background-color: red;
+}

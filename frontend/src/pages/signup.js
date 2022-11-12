@@ -104,6 +104,9 @@ const signup = () => {
               </div>
               <button className={signupStyles.button}>ENGAGE</button>
             </form>
+            <div className={signupStyles.alreadyRegistered}>
+              <a href="/login">Have an account? Login here.</a>
+            </div>
           </div>
         </div>
       </section>

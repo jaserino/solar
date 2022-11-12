@@ -71,6 +71,9 @@ const Login = () => {
               </div>
               <button className={loginStyles.button}>ENGAGE</button>
             </form>
+            <div className={loginStyles.notregistered}>
+              <a href="/signup">Not Registered? Sign up here!</a>
+            </div>
           </div>
         </div>
       </section>

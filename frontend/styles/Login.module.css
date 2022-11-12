@@ -42,6 +42,7 @@
 
 .loginbox .userbox input {
   width: 100%;
+  height: 60px;
   padding: 10px;
   font-size: 16px;
   margin-bottom: 24px;
@@ -87,4 +88,8 @@
   border: none;
   box-shadow: 0 0 5px #c874b2, 0 0 25px #c874b2, 0 0 50px #c874b2,
     0 0 100px #c874b2;
+}
+
+.notregistered {
+  margin-top: 1.5rem;
 }
