@@ -1,7 +1,7 @@
-import footerStyles from '../styles/Footer.module.css';
+import footerStyles from '../../styles/Footer.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
-import logo from '../public/logo2.png';
+import logo from '../../public/logo2.png';
 
 import { AiFillGithub } from 'react-icons/ai';
 import { AiFillTwitterCircle } from 'react-icons/ai';

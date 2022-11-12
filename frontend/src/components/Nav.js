@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import navStyles from '../styles/Nav.module.css';
+import navStyles from '../../styles/Nav.module.css';
 import Image from 'next/image';
-import logo from '../public/logo2.png';
+import logo from '../../public/logo2.png';
 
 const Nav = () => {
   return (
